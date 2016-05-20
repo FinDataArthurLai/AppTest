@@ -6,6 +6,7 @@
 //  Copyright © 2016 吳天元. All rights reserved.
 //
 
+import SwiftyJSON
 import XCTest
 @testable import AppTest
 
@@ -24,6 +25,19 @@ class AppTestTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let bundle = NSBundle(forClass: AppTestTests.self)
+        guard let path = bundle.pathForResource("test_places", ofType: "geojson") else {
+            XCTAssertTrue(false)
+            return
+        }
+        guard let data = NSData(contentsOfFile: path) else {
+            XCTAssertTrue(false)
+            return
+        }
+        
+        let json = JSON(data: data)
+        XCTAssertEqual(json["type"].string, "FeatureCollection")
     }
     
     func testPerformanceExample() {

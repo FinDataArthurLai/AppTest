@@ -1,0 +1,115 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "name": "好市多",
+                 "type": 1,
+                 "id": 5,
+                 "price": 20,
+                 "empty space": 30,
+                 "total": 59,
+                 "business hours": [1200, 2400]
+                 },
+                 "geometry": {
+                 "type": "Point",
+                 "coordinates": [
+                                 121.57591938972473,
+                                 25.06380207854633
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "name": "大潤發一館",
+                 "type": 1,
+                 "id": 1,
+                 "price": 30,
+                 "empty space": 10,
+                 "total": 59,
+                 "business hours": [700, 2300]
+                 },
+                 "geometry": {
+                 "type": "Point",
+                 "coordinates": [
+                                 121.5780222415924,
+                                 25.06088647209048
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "name": "大潤發二館",
+                 "type": 1,
+                 "id": 2,
+                 "price": 40,
+                 "empty space": 15,
+                 "total": 59,
+                 "business hours": [800, 2000]
+                 },
+                 "geometry": {
+                 "type": "Point",
+                 "coordinates": [
+                                 121.57558143138887,
+                                 25.0624754862113
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "name": "燦坤",
+                 "type": 1,
+                 "id": 4,
+                 "price": 60,
+                 "empty space": 12,
+                 "total": 30,
+                 "business hours": [0, 1200]
+                 },
+                 "geometry": {
+                 "type": "Point",
+                 "coordinates": [
+                                 121.57329618930817,
+                                 25.062971137775506
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "name": "B&Q特力屋",
+                 "type": 1,
+                 "id": 3,
+                 "price": 20,
+                 "empty space": 35,
+                 "total": 79,
+                 "business hours": [0, 2400]
+                 },
+                 "geometry": {
+                 "type": "Point",
+                 "coordinates": [
+                                 121.57424569129942,
+                                 25.061882645432487
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "name": "台北科技大學",
+                 "type": 2,
+                 "id": 10000001
+                 },
+                 "geometry": {
+                 "type": "Point",
+                 "coordinates": [
+                                 121.53467774391173,
+                                 25.043119210972794
+                                 ]
+                 }
+                 }
+                 ]
+}

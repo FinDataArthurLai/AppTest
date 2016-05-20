@@ -10,6 +10,7 @@
 		407197BB366ECF2F55498D75 /* Pods_AppTest_AppTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AB09BB13501668816F3347 /* Pods_AppTest_AppTestUITests.framework */; };
 		52BDFB2EBD197E40E00FECEA /* Pods_AppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB7830F6D3AB848D7C35F1F /* Pods_AppTest.framework */; };
 		589CFC6F9CD8082DFCF3E3E0 /* Pods_AppTest_AppTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E229595AC2D0B06C22D35B /* Pods_AppTest_AppTestTests.framework */; };
+		D17C98E01CEEFD7200403DCA /* test_places.geojson in Resources */ = {isa = PBXBuildFile; fileRef = D17C98DF1CEEFD7200403DCA /* test_places.geojson */; };
 		D1C855D61CEEF33A00866F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C855D51CEEF33A00866F70 /* AppDelegate.swift */; };
 		D1C855D81CEEF33A00866F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C855D71CEEF33A00866F70 /* ViewController.swift */; };
 		D1C855DB1CEEF33A00866F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C855D91CEEF33A00866F70 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		934B05D4238BA697FD24403D /* Pods-AppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppTest/Pods-AppTest.release.xcconfig"; sourceTree = "<group>"; };
 		96B1373840C0937D077A1381 /* Pods-AppTest-AppTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTest-AppTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppTest-AppTestUITests/Pods-AppTest-AppTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9CB7830F6D3AB848D7C35F1F /* Pods_AppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17C98DF1CEEFD7200403DCA /* test_places.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_places.geojson; sourceTree = "<group>"; };
 		D1C855D21CEEF33A00866F70 /* AppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C855D51CEEF33A00866F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C855D71CEEF33A00866F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				D1C855EA1CEEF33A00866F70 /* AppTestTests.swift */,
+				D17C98DF1CEEFD7200403DCA /* test_places.geojson */,
 				D1C855EC1CEEF33A00866F70 /* Info.plist */,
 			);
 			path = AppTestTests;
@@ -287,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17C98E01CEEFD7200403DCA /* test_places.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
