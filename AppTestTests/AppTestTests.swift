@@ -38,7 +38,6 @@ class AppTestTests: XCTestCase {
         
         let json = JSON(data: data)
         XCTAssertEqual(json["type"].string, "FeatureCollection")
-        XCTAssertEqual(json["type"].string, "FeatureCollections")
     }
     
     func testPerformanceExample() {
